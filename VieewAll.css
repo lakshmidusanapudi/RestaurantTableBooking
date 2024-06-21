@@ -1,0 +1,25 @@
+.userContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .userCard {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 300px;
+    margin: 10px;
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .userImage {
+    width: 150px;
+    height: 150px;
+    border-radius: 5px;
+  }
+  
+  .userInfo {
+    padding: 10px;
+  }
+  

@@ -1,0 +1,63 @@
+.addrestaurent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f2f2f2;
+}
+.addrestaurent-form{
+    background-color: rgb(225, 187, 140);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    box-sizing: border-box;
+}
+.addrestaurent-form h2{
+    font-size: 24px;
+    text-align: center;
+    color: #333;
+}
+
+.addrestaurent-form table{
+    width: 100%;
+}
+.addrestaurent-form td{
+    padding: 10px 0;
+}
+
+.addrestaurantname-input label,
+.addrestaurantlocation-input label,
+.addrestaurantnumber-input label
+{
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+    font-weight: bold;
+}
+
+.addrestaurantname-input input,
+.addrestaurantlocation-input input,
+.addrestaurantnumber-input input{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.addrestaurentbutton{
+    display: inline-block;
+    width: 100%;
+    background-color: #007bff;
+    padding: 10px;
+   border: none;
+   font-size: 16px;
+   cursor: pointer;
+    margin-top: 20px;
+    color:#fff ;
+}
+.addrestaurentbutton:hover{
+    background-color: #0056b3;
+}

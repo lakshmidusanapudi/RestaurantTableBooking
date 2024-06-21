@@ -1,0 +1,33 @@
+#restaurents {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    border: 5px;
+    max-width: 500px;
+    position: absolute;
+    justify-content: center;
+    margin: 200px;
+    margin-left: 450px;
+    box-shadow: rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    background-color: rgb(225, 187, 140); 
+}
+#restaurents  h1 {
+    margin: 20px 0px;
+}
+
+#restaurents  table thead tr th {
+    padding: 10px;
+    background-color: rgba(125, 17, 3, 0.817); 
+    color: #fff;
+}
+
+#restaurents  table tbody tr td {
+    text-align: center;
+    padding: 10px;
+}
+
+/* #restaurents  table tbody tr:nth-child(2n-1) {
+    color: #64221b;
+} */

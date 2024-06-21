@@ -1,0 +1,72 @@
+.user-registration-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f2f2f2;
+}
+.regd-form{
+    background-color: rgb(225, 187, 140);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    box-sizing: border-box;
+}
+.regd-form h2{
+
+    font-size: 24px;
+    text-align: center;
+    color: #333;
+}
+.regd-form table{
+width: 100%;
+}
+.regd-form td {
+    padding: 10px 0;
+  }
+
+.regd-form p {
+    text-align: center;
+    color: #333;
+  }
+
+  .register-email-input label,
+  .register-address-input label,
+  .register-mobilenumber-input label,
+  .register-name-input label,
+  .register-password-input label,
+  .register-image-input label{
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #333;
+  }
+
+  .register-email-input input,
+  .register-address-input input,
+  .register-mobilenumber-input input,
+  .register-name-input input,
+  .register-password-input input,
+  .register-image-input input{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+  .register-button{
+    width: 100%; 
+    background-color: #007bff;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  .register-button:hover{
+    background-color: #0056b3;
+  }
